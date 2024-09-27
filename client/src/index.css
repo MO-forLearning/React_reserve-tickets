@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main, .headerInner {
+  margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  color: #222;
+}
+a {
+  text-decoration: none;
+}
+
+a, p {
+  font-size: 14px;
+  color: #222;
+  margin: 0;
+}
+button {
+  font-size: 12px;
+  margin: 0 0 5px;
+}
+h1 {
+  font-size: 18px;
+  color: #a55;
+}
+h2 {
+  font-size: 16px;
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+}
+.header_userInfo {
+  margin-left: 10px;
+}
+footer {
+  text-align: center;
+  padding: 10px 0;
+}
+.note, .errorMsg {
+  color: red;
+}
+.errorMsg {
+  font-size: 12px;
+}
+.newCustomer {
+  margin-top: 30px;
+}
+.newCustomer a {
+  color: #d33;
+  text-decoration: underline;
+}
+
+/* tickets */
+.ticketBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.ticketBox {
+  font-size: 14px;
+  padding: 7px;
+  width: 350px;
+  border: 1px solid #555;
+  background-color: #fed;
+}
+.ticketBox h3 {
+  color: #488;
+  padding: 3px 0;
+}
+.ticketBox dl {
+  display: flex;
+}
+.ticketBox dt {
+  width: 4rem;
+}
+.ticketBox dd {
+  margin-left: 20px;
+}
+.pageButton {
+  margin: 20px 0 0;
+}
