@@ -29,26 +29,26 @@
 
 
 ## ディレクトリ構成
-.< br>
-├── .gitignore< br>
-├── README.md< br>
-├── client< br>
-|   ├── .gitignore< br>
-|   ├── package-lock.json< br>
-|   ├── package.json< br>
-|   ├── public< br>
-|   |   └── index.html< br>
-|   └── src< br>
-|       ├── App.js< br>
-|       ├── Router.js< br>
-|       ├── api< br>
-|       ├── components< br>
-|       ├── hooks< br>
-|       ├── index.css< br>
-|       ├── index.js< br>
-|       └── pages< br>
-└── server< br>
-    ├── .gitignore< br>
-    ├── index.js< br>
-    ├── package-lock.json< br>
+.<br >
+├── .gitignore<br >
+├── README.md<br >
+├── client<br >
+|   ├── .gitignore<br >
+|   ├── package-lock.json<br >
+|   ├── package.json<br >
+|   ├── public<br >
+|   |   └── index.html<br >
+|   └── src<br >
+|       ├── App.js<br >
+|       ├── Router.js<br >
+|       ├── api<br >
+|       ├── components<br >
+|       ├── hooks<br >
+|       ├── index.css<br >
+|       ├── index.js<br >
+|       └── pages<br >
+└── server<br >
+    ├── .gitignore<br >
+    ├── index.js<br >
+    ├── package-lock.json<br >
     └── package.json
