@@ -15,6 +15,7 @@
 | Express                 | 4.18.2        |
 | Node.js               | 18.17.0    |
 | React                 | 18.3.1     |
+| React Router Dom                 | 6.25.1     |
 | npm             |  9.6.7      |
 
 
@@ -52,3 +53,18 @@
     ├── index.js<br >
     ├── package-lock.json<br >
     └── package.json
+
+
+## 開発環境構築
+
+### 起動
+
+ターミナルで二画面表示し、以下コマンドを実行
+
+①一画面目<br >
+cd server/<br >
+npm run start
+
+②二画面目<br >
+cd client/<br >
+npm run start
