@@ -30,29 +30,31 @@
 
 
 ## ディレクトリ構成
-.<br >
-├── .gitignore<br >
-├── README.md<br >
-├── client<br >
-|   ├── .gitignore<br >
-|   ├── package-lock.json<br >
-|   ├── package.json<br >
-|   ├── public<br >
-|   |   └── index.html<br >
-|   └── src<br >
-|       ├── App.js<br >
-|       ├── Router.js<br >
-|       ├── api<br >
-|       ├── components<br >
-|       ├── hooks<br >
-|       ├── index.css<br >
-|       ├── index.js<br >
-|       └── pages<br >
-└── server<br >
-    ├── .gitignore<br >
-    ├── index.js<br >
-    ├── package-lock.json<br >
+<pre>
+.
+├── .gitignore
+├── README.md
+├── client
+|   ├── .gitignore
+|   ├── package-lock.json
+|   ├── package.json
+|   ├── public
+|   |   └── index.html
+|   └── src
+|       ├── App.js
+|       ├── Router.js
+|       ├── api
+|       ├── components
+|       ├── hooks
+|       ├── index.css
+|       ├── index.js
+|       └── pages
+└── server
+    ├── .gitignore
+    ├── index.js
+    ├── package-lock.json
     └── package.json
+</pre>
 
 
 ## 開発環境構築
