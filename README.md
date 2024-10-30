@@ -70,3 +70,41 @@ npm run start
 ②二画面目<br >
 cd client/<br >
 npm run start
+
+
+## データベース設計
+
+### usersテーブル
+| Column             | Type       | Options                        |
+| ------------------ | ---------- | ------------------------------ |
+| userID             | integer    | null: false, unique: true      |
+| userName           | string     | null: false                    |
+| email              | string     | null: false                    |
+| password           | string     | null: false                    |
+
+### ticketsテーブル
+| Column             | Type       | Options                        |
+| ------------------ | ---------- | ------------------------------ |
+| ticketID           | integer    | null: false, unique: true      |
+| ticketName         | string     | null: false                    |
+| startTime          | datetime   | null: false                    |
+| endTime            | datetime   | null: false                    |
+| cost               | integer    | null: false                    |
+| placeId            | integer    | null: false                    |
+| numberOf           | integer    | null: false                    |
+| purchased          | integer    | null: false, default: "0"      |
+
+### purchasesテーブル
+| Column             | Type       | Options                        |
+| ------------------ | ---------- | ------------------------------ |
+| purchaseID         | integer    | null: false, unique: true      |
+| userID             | integer    | null: false                    |
+| ticketID           | integer    | null: false                    |
+| numberOf           | integer    | null: false                    |
+
+### placesテーブル
+| Column             | Type       | Options                        |
+| ------------------ | ---------- | ------------------------------ |
+| placeID            | integer    | null: false, unique: true      |
+| placeName          | string     | null: false                    |
+| address            | string     | null: false                    |
